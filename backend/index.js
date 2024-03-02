@@ -13,7 +13,7 @@ mongoose
     "mongodb+srv://arteaga:a1sQsXZT58TZT2eN@cluster0.etrrcnc.mongodb.net/movies"
   )
   .then(() => {
-    console.log(`DB Connected Succesfully`);
+    console.log(`DB Connected Successfully`);
   })
   .catch((err) => {
     console.log(`Error in DB Connection: ${err}`);
